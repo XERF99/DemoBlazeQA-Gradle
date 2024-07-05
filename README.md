@@ -1,27 +1,30 @@
 Proyecto de Automatización de Pruebas para DemoBlaze
 Este proyecto utiliza Serenity BDD con el patrón Screenplay para automatizar pruebas en el sitio web de DemoBlaze. Las pruebas están escritas en lenguaje Gherkin y se ejecutan utilizando JUnit.
 
+
 Requisitos
-Java JDK 11 o superior
-Gradle 7.0 o superior
-IntelliJ IDEA (opcional, pero recomendado para desarrollo)
-Navegador Chrome
+
+- Java JDK 11 o superior
+- Gradle 7.0 o superior
+- IntelliJ IDEA (opcional, pero recomendado para desarrollo)
+- Navegador Chrome
+
 Instalación
 1. Clona este repositorio:
-   git clone https://github.com/XERF99/DemoBlazeQA-Gradle.git
-   cd DemoBlazeQA-Gradle
+  - git clone https://github.com/XERF99/DemoBlazeQA-Gradle.git
+  - cd DemoBlazeQA-Gradle
 2. Configura las dependencias utilizando Gradle:
-   .\gradlew clean build
+   - .\gradlew clean build
 Estructura del Proyecto
-   src/main/java: Contiene el código fuente principal.
-   co.com.automatizacion.demoblaze.tasks: Clases que definen tareas que los actores pueden realizar.
-   co.com.automatizacion.demoblaze.questions: Clases que definen las preguntas que los actores pueden hacer.
-   co.com.automatizacion.demoblaze.userinterface: Clases que definen los mapeos de los elementos de la interfaz de usuario.
-   co.com.automatizacion.demoblaze.utils: Clases que definen las constantes de los elementos de la interfaz de usuario.
-   src/test/java: Contiene las pruebas.
-   co.com.automatizacion.demoblaze.stepdefinitions: Clases que definen los pasos de las pruebas.
-   co.com.automatizacion.demoblaze.runners: Clases que configuran y ejecutan las pruebas.
-   src/test/resources: Contiene los archivos de características (Gherkin).
+   - src/main/java: Contiene el código fuente principal.
+   - co.com.automatizacion.demoblaze.tasks: Clases que definen tareas que los actores pueden realizar.
+   - co.com.automatizacion.demoblaze.questions: Clases que definen las preguntas que los actores pueden hacer.
+   - co.com.automatizacion.demoblaze.userinterface: Clases que definen los mapeos de los elementos de la interfaz de usuario.
+   - co.com.automatizacion.demoblaze.utils: Clases que definen las constantes de los elementos de la interfaz de usuario.
+   - src/test/java: Contiene las pruebas.
+   - co.com.automatizacion.demoblaze.stepdefinitions: Clases que definen los pasos de las pruebas.
+   - co.com.automatizacion.demoblaze.runners: Clases que configuran y ejecutan las pruebas.
+   - src/test/resources: Contiene los archivos de características (Gherkin).
 
 Ejecución de Pruebas
 1. Para ejecutar todas las pruebas, usa el siguiente comando:
