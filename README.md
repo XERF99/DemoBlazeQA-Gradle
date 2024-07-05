@@ -11,10 +11,13 @@ Este proyecto utiliza Serenity BDD con el patrón Screenplay para automatizar pr
 
 ## Instalación
 1. Clona este repositorio:
-  - git clone https://github.com/XERF99/DemoBlazeQA-Gradle.git
-  - cd DemoBlazeQA-Gradle
+    ```sh
+    git clone https://github.com/XERF99/DemoBlazeQA-Gradle.git
+    cd DemoBlazeQA-Gradle
+
 2. Configura las dependencias utilizando Gradle:
-   - .\gradlew clean build
+   ```sh
+   .\gradlew clean build
 ## Estructura del Proyecto
    - src/main/java: Contiene el código fuente principal.
    - co.com.automatizacion.demoblaze.tasks: Clases que definen tareas que los actores pueden realizar.
@@ -28,13 +31,16 @@ Este proyecto utiliza Serenity BDD con el patrón Screenplay para automatizar pr
 
 ## Ejecución de Pruebas
 1. Para ejecutar todas las pruebas, usa el siguiente comando:
+   ```sh
     .\gradlew clean test
 
-2. Para ejecutar un conjunto específico de pruebas, puedes usar el nombre del runner. Por ejemplo:
+3. Para ejecutar un conjunto específico de pruebas, puedes usar el nombre del runner. Por ejemplo:
+   ```sh
    .\gradlew clean test --tests "co.com.certification.demoblaze.runners.RunnerRegistro"
 
 ## Ejemplo de Ejecución de Pruebas
 Para ejecutar las pruebas del caso de registro:
+  
     .\gradlew clean test --tests "co.com.certification.demoblaze.runners.RunnerRegistro"
 
 ## Programas utilizados
