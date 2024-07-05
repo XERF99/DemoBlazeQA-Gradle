@@ -44,10 +44,10 @@ SLF4J No-operation Logger: Si ves advertencias sobre SLF4J, puedes ignorarlas o 
 Versiones de CDP: Asegúrate de usar una versión de Selenium compatible con tu versión de Chrome.
 
 Contribución
-Crea un fork del proyecto.
-Crea una rama (git checkout -b feature/nueva-funcionalidad).
-Realiza tus cambios y commitea (git commit -am 'Añade nueva funcionalidad').
-Empuja la rama (git push origin feature/nueva-funcionalidad).
-Crea un Pull Request.
-Licencia
+- Crea un fork del proyecto.
+- Crea una rama (git checkout -b feature/nueva-funcionalidad).
+- Realiza tus cambios y commitea (git commit -am 'Añade nueva funcionalidad').
+- Empuja la rama (git push origin feature/nueva-funcionalidad).
+- Crea un Pull Request.
+- Licencia
 Este proyecto está licenciado bajo la Licencia MIT.
